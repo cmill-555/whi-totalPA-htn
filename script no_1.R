@@ -237,6 +237,7 @@ WHI.TotalPA.htntbl1.df <- WHI.TotalPA.table1_df %>% select(ID, F33PILLSHYP, Tota
 ### summary table (using "arsenal" package),   ###
 ### stratified by incident hypertension status ###
 ##################################################
+library(arsenal)
 supp_table_one <- tableby(F33PILLSHYP ~ ., data = WHI.TotalPA.htntbl1.df) 
 
 #------------------------#------------------------#------------------------#------------------------#------------------------
