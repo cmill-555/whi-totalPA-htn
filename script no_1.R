@@ -191,7 +191,7 @@ WHI.TotalPA.table1_df <- WHI.TotalPA.table1_df %>%
                                       DMARM==2 ~ "No",
                                       DMARM==1 ~ "Yes"),
                             label = "DM intervention"))
-sss
+
 
 ###################################################################################################
 
